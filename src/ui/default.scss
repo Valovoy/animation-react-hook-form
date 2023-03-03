@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Popponis', sans-serif;
+  overflow: hidden;
+  background-color: var(--bgDark);
+}
+
+button,
+input {
+  font-family: 'Popponis', sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --bgDark: #1f2029;
+  --redAlert: #ff0065;
+  --yellow: #ffeba7;
+  --bgDarkGrey: #2a2b38;
+  --blue: #102770;
+  --lightGrey: #c4c3ca;
+}

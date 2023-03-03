@@ -1,0 +1,33 @@
+.inputContainer {
+  position: relative;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+
+  .input {
+    width: 250px;
+    height: 30px;
+    background-color: var(--bgDark);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px 20px 5px 45px;
+    box-shadow: 0 4px 8px 0 rgb(21, 21, 21, 0.21);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--lightGrey);
+    letter-spacing: 0.5px;
+
+    &.isError {
+      border-color: var(--redAlert);
+    }
+  }
+
+  .formSvg {
+    position: absolute;
+    left: 15px;
+    color: var(--yellow);
+    width: 24px;
+    height: 24px;
+  }
+}
